@@ -14,6 +14,7 @@ body{
 h1, h2, h3, h4 {
     font-family: 'Oswald', sans-serif;
     font-weight: 900;
+    width: 100%;
 }
 
 a {
@@ -33,6 +34,11 @@ li.nav-item {
 
 li.nav-item:hover {
     transform: scale(1.2);
+}
+
+li.nav-item:hover .fa{
+    transform: scale(1.2);
+    color:#f44336;
 }
 
 header.leon{
@@ -94,4 +100,25 @@ span.fa.fa-angle-double-down {
 	transform-origin:90% 90%;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
+}
+
+.somos{
+    background: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.heavy {
+    font-weight: 900;
+    color: #F44336;
+}
+
+.lead {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+}
+
+.card-img-top {
+    max-width: 205.51px;
 }
