@@ -122,3 +122,80 @@ span.fa.fa-angle-double-down {
 .card-img-top {
     max-width: 205.51px;
 }
+
+.clientes{
+    background: #17161f;
+    color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.clientes img{
+    max-width: 130px;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	opacity: .5;
+	transition: .4s;
+}
+
+.clientes img:hover{
+    -webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	opacity: 1;
+	transform: scale(1.2)
+}
+
+.card-img {
+    border-radius: 0px;
+}
+
+.ideas{
+    background: #17161f;
+    color: #ffffff;
+    padding-bottom: 100px;
+}
+
+.contacto{
+    background: #ffffff;
+    color: #333333;
+
+}
+
+input {
+    background: #ececec;
+    border: solid 1px;
+    border-color: #dadada;
+    padding: 5px;
+}
+
+textarea{
+	background: #ececec;
+    border: solid 1px;
+    border-color: #dadada;
+}
+
+input#submit {
+    background: #F44336;
+    color: #ffffff;
+    border: none;
+    width: 106px;
+}
+
+.portSobrepuesta{
+	background: #F44336; 
+	position: absolute; 
+	width: 100%; 
+	height: 100%;
+	color: #ffffff;
+	padding: 20px;
+	opacity: 0;
+	transition: .4s;		
+}
+
+.portSobrepuesta:hover{
+	opacity: .9;		
+}
+
+.portafolio video:hover{
+	opacity: 0;
+}
